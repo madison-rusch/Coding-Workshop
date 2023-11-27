@@ -1,4 +1,6 @@
-def PascalsTriangle(numRows):
+# Brute Force approach
+
+def PascalsTriangle1(numRows):
     triangle = [[1], [1, 1]]
     if numRows == 1 or numRows == 2:
         return triangle[numRows - 1]
@@ -19,4 +21,4 @@ def PascalsTriangle(numRows):
         
     return triangle
             
-print(PascalsTriangle(15))
+print(PascalsTriangle1(30))
